@@ -154,6 +154,27 @@ lets talk about some Range of Primitive DataType:
     7.BigInt (ES11):
         Represents large integers that cannot be represented by the Number type.
         The range is practically unlimited and depends on available memory.
-
-
 */
+
+//*******************How_Memory_Is_Used******************
+
+// stack (primitive ) and heap (non-primitive)
+
+let myYoutubeName = "ManishOfficial"
+let newYoutube = myYoutubeName // here we get a copy of the orginal value and does not affect the original value when there are changes in this value 
+newYoutube = "Manish2001"
+console.log(myYoutubeName);//ManishOfficial
+console.log(newYoutube);//Manish2001
+
+let user1 = {
+    name: "user11",
+    email: "user11@gmail.com",
+}
+
+let user2 = user1; // here the value is referenced to the original value and if the changes are done in user2 then the date in the user1 will also gets changed 
+
+user2.email = "user2@gmail.com";
+
+console.log(user1.email)//user2@gmail.com
+console.log(user2.email)//user2@gmail.com
+
