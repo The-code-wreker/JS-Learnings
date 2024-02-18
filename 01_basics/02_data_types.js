@@ -29,3 +29,17 @@ console.log(typeof age) // number
 console.log(typeof null)  // object no specific data type
 console.log(typeof undefined)  // undefined
 
+// total 8 data types 
+/*
+// 7 primitive
+1.string
+2.number
+3.Bigint
+4.boolean
+5.undefined
+6.null
+7.symbol
+
+// non-primitive
+1.object
+*/

@@ -1,6 +1,6 @@
 const accountId = 144533
 let accountEmail = "manish@google.com"
-var accountPassword = "12345" // not used as js does not know of scope both functional and block
+var accountPassword = "12345" // not used as js does not know of scope both functional(local) and block
 accountCity = "Jaipur" // this also creates a reserved memory of variable but not at all recommended
 let accountState; // its value is currently undefined
 
